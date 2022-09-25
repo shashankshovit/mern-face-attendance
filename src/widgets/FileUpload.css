@@ -1,0 +1,23 @@
+.file-upload {
+	display: flex;
+	flex-direction: column;
+}
+.file-upload .row {
+	display: inline-flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	margin: 5px 0;
+}
+.file-upload .row:first-child {
+	justify-content: center;
+}
+.file-upload .row div:first-child {
+	width: 30%;
+}
+.file-upload input {
+	width: 200px;
+}
+.file-upload .row button {
+	cursor: pointer;
+	width: 30%;
+}

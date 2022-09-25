@@ -1,0 +1,30 @@
+.Attendance {}
+
+.Attendance video {
+	border: 1px solid red;
+}
+.Attendance canvas {
+	border: 1px solid green;
+}
+
+.Attendance .button_tray {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 5px;
+}
+
+.Attendance .button_tray button {
+	cursor: pointer;
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.Attendance .button_tray button.shutter {
+}
+
+.Attendance .hidden {
+	display: none;
+}
